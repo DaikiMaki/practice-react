@@ -1,10 +1,12 @@
 import React from 'react'
+import {Icon, Title, Content} from "./index";
 
 const BlogList = (props) => {
   return (
     <>
-      <h1>{props.title}</h1>
-      <p>{props.content}</p>
+      <Icon />
+      <Title title={props.title} />
+      <Content content={props.content} />
     </>
   )
 }
